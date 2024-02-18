@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter 1st Number:"
+        android:textSize="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/e1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter 2nd Number:"
+        android:textSize="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp" />
+
+    <EditText
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="150dp"
+        android:id="@+id/e2"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer:"
+        android:textSize="30dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="20dp" />
+
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="230dp" />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="350dp"
+        android:text="ADD"
+        android:textSize="30dp"
+        android:id="@+id/b1"
+        android:onClick="add"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="350dp"
+        android:text="SUB"
+        android:textSize="30dp"
+        android:id="@+id/b2"
+        android:onClick="sub"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="450dp"
+        android:text="MUL"
+        android:textSize="30dp"
+        android:id="@+id/b3"
+        android:onClick="mul"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="450dp"
+        android:text="DIV"
+        android:textSize="30dp"
+        android:id="@+id/b4"
+        android:onClick="div"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:id="@+id/b5"
+        android:onClick="clear"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="540dp"
+        android:textSize="30dp"/>
+</RelativeLayout>
