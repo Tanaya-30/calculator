@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         b2=(Button)findViewById(R.id.b2);
         b3=(Button)findViewById(R.id.b3);
         b4=(Button)findViewById(R.id.b4);
-        b5=(Button)findViewById(R.id.b5);
+
     }
     public void add(View v){
         int a=Integer.parseInt(E1.getText().toString());
@@ -47,9 +47,5 @@ public class MainActivity extends AppCompatActivity {
         int c=a/b;
         E3.setText(""+c);
     }
-    public void clear(View v){
-        E3.setText("  ");
-        E2.setText(" ");
-        E1.setText(" ");
-    }
+
 }

@@ -89,13 +89,5 @@
         android:id="@+id/b4"
         android:onClick="div"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Clear"
-        android:id="@+id/b5"
-        android:onClick="clear"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="540dp"
-        android:textSize="30dp"/>
+
 </RelativeLayout>
