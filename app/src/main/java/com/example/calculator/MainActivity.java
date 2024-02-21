@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     public void div(View v){
         int a=Integer.parseInt(E1.getText().toString());
         int b=Integer.parseInt(E2.getText().toString());
-        int c=a/b;
+        int c=a+b;
         E3.setText(""+c);
     }
 
